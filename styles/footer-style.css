@@ -45,7 +45,7 @@
 .social_icon{
     width: 2rem;
     height: 2rem;
-    margin: 0 .5rem;
+    margin: 0.5rem .5rem;
     cursor: pointer;
 }
 .footer_info_contacts{
@@ -96,5 +96,13 @@
 @media screen and (max-width:550px) {
     .footer_info_contacts{
         flex-direction: column;
+    }
+    .get_quote{
+        width: 90%;
+        flex-direction: column;
+        margin: 1rem 1rem;
+    }
+    .get_quote_text{
+        width: 100%;
     }
 }

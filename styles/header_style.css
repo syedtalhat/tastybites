@@ -158,6 +158,9 @@
     .header_text-inputs_location{
         margin: 0.5rem 0;
     }
+    #header_text-para{
+        width: 90%;
+    }
     .header_images{
         width: 90%;
         margin: 1rem 0;
