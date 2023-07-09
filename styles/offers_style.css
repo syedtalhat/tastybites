@@ -1,0 +1,21 @@
+.offers{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 3rem 1rem;
+}
+.offer{
+    display: flex;
+    margin: 1rem 0.5rem;
+    cursor: pointer;
+}
+
+@media (max-width:950px) {
+    .offers{
+        flex-direction: column;
+        margin: 3rem 0;
+    }
+    .offer img{
+        width: 100%;
+    }
+}

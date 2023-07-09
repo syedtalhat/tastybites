@@ -1,0 +1,27 @@
+#how_to_order{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.steps_container{
+    display: flex;
+}
+.step{
+    margin: 1rem 1rem;
+}
+.step_img{
+    width: 8rem;
+    height: 8rem;
+}
+.step_title{
+    color: black;
+    text-decoration: none;
+}
+
+@media screen and (max-width:750px) {
+    .steps_container{
+        flex-direction: column;
+    }
+}

@@ -1,0 +1,66 @@
+#best_dishes{
+    margin: 3rem 3rem;
+}
+.best_dishes_container{
+    margin: 2rem 3rem;
+}
+.best_dishes_top{
+    display: flex;
+    margin: 0.5rem .5rem;
+}
+.best_dishes_top button{
+    margin-left: auto;
+}
+.best_dish{
+    width: 18rem;
+    height: 22rem;
+    border-radius: 1rem;
+    box-shadow: 1px 1px 1px 1px rgb(217, 214, 214);
+    padding: 0 0 1rem 0;
+    margin: .5rem 0.5rem;
+}
+.best_dish .dish_img{
+    width: 18rem;
+    height: 14rem;
+    border-radius: 1rem;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+}
+.rating{
+    display: flex;
+    margin-top: .2rem;
+    margin-bottom: 0.5rem;
+    font-size: smaller;
+}
+.dish_text{
+    padding: 0.1rem;
+}
+.dish_price{
+    margin-top: 1.5rem;
+    margin-bottom: 0.3rem;
+    font-size: small;
+}
+.best_dishes_row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem;
+}
+
+@media (max-width:950px) {
+    .best_dishes_container{
+        display: flex;
+        flex-direction: column;
+        margin: 2rem 0;
+    }
+    .best_dishes_row{
+        display: flex;
+        flex-direction: column;
+        margin-top: 1rem;
+    }
+}
+@media screen and (max-width:650px) {
+    #best_dishes {
+        margin: 3rem 1rem;
+      }
+}
