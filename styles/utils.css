@@ -36,6 +36,7 @@ input{
 }
 .view_more{
     width: 8rem;
+    margin-left: auto;
 }
 h1{
     font-size:6.35vh;
