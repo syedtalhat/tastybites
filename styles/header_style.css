@@ -158,9 +158,6 @@
     .header_text-inputs_location{
         margin: 0.5rem 0;
     }
-    #header_text-para{
-        width: 90%;
-    }
     .header_images{
         width: 90%;
         margin: 1rem 0;
@@ -175,7 +172,7 @@
         box-shadow: 3px 3px 3px rgb(217, 214, 214);
     }
     .header_overlay{
-        margin-left: 2rem;
+        margin-left: 1rem;
     }
     #header_overlay-bottom-image {
     margin-left: 13rem;
