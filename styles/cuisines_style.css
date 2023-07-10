@@ -11,14 +11,9 @@
 }
 .main_cuisines{
     display: flex;
-    width: 80%;
-    height: 20rem;
+    width: 95%;
     margin: 0.5rem 0rem;
     overflow: hidden;
-}
-#cuisines_container{
-    width: 100%;
-    height: 100%;
 }
 .cuisine{
     height: 15rem;
@@ -52,5 +47,8 @@
     .our_cuisine{
         margin: auto;
         width: 70%;
+    }
+    .main_cuisines{
+        flex-direction: column;
     }
 }

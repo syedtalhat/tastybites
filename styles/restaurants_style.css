@@ -1,27 +1,16 @@
 #restaurants{
     margin: 3rem 1rem ;
 }
-.restaurant_display{
+.restaurants_top{
     display: flex;
-    width: 97%;
-    justify-content: center;
-    align-items: center;
-}
-#top_restro_left_btn,#top_restro_right_btn{
-    margin: auto 0;
-    margin-top: auto;
-    margin-bottom: auto;
-}
-.restaurants_cards{
-    width: 80%;
-    margin: 0 2rem;
 }
 #restaurant_card_container{
     width: 100%;
-    height: 15rem;
     overflow: hidden;
     display: flex;
     margin-top: 1rem;
+    justify-content: center;
+    align-items: center;
 }
 .restaurant_card{
     width: 13rem;
@@ -32,7 +21,7 @@
     border-bottom-left-radius: 0;
     box-shadow: 1px 1px 1px 1px rgb(217, 214, 214);
     padding: 0 0 1rem 0;
-    margin: 0 1rem;
+    margin: .5rem 1rem;
 }
 .restaurant_card .rating{
     position: absolute;
@@ -59,6 +48,7 @@
 
 @media (max-width:950px) {
     #restaurant_card_container{
-        width: 80%;
+        width: 90%;
+        flex-direction: column;
     }
 }
