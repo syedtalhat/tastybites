@@ -50,5 +50,6 @@
     }
     .main_cuisines{
         flex-direction: column;
+        margin: 1rem auto;
     }
 }

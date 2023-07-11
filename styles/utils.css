@@ -53,7 +53,7 @@ h2{
     border-radius: 8.5px;
     border: 1px solid black;
     padding: 1px 1px;
-    margin: 0 .3rem;
+    margin: auto .3rem;
     cursor: pointer;
 }
 .arrow_left{
